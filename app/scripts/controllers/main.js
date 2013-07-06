@@ -2,7 +2,7 @@
 
 angular.module('ghanozBookWishListAngularApp')
   .controller('MainCtrl', function($scope) {
-    $scope.heading = "Ghanoz's book wish list on AngularJS";
+    $scope.heading = 'Ghanoz\'s book wish list';
     $scope.books = [
       '97 Things Every Programmer Should Know',
       'NoSQL Distilled A Brief Guide to the Emerging World of Polyglot' +
