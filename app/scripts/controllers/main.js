@@ -6,7 +6,7 @@ angular.module('ghanozBookWishListAngularApp')
     $scope.books = [
       '97 Things Every Programmer Should Know',
       'NoSQL Distilled A Brief Guide to the Emerging World of Polyglot' +
-        ' Persistence',
+      ' Persistence',
       'The Agile Samurai',
       'JavaScript Patterns',
       'JavaScript The Definitive Guide, 6th Edition',
@@ -16,4 +16,8 @@ angular.module('ghanozBookWishListAngularApp')
       'Node Up and Running',
       'Node Cookbook'
     ];
+    
+    $scope.addBook = function() {
+      $scope.books.push($scope.bookNameText);
+    };
   });
