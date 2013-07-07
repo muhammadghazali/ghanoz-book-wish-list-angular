@@ -16,8 +16,8 @@ angular.module('ghanozBookWishListAngularApp')
       'Node Up and Running',
       'Node Cookbook'
     ];
-    
+
     $scope.addBook = function() {
-      $scope.books.push($scope.bookNameText);
+      if ($scope.bookNameText) $scope.books.push($scope.bookNameText);
     };
   });
