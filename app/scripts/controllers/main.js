@@ -18,6 +18,9 @@ angular.module('ghanozBookWishListAngularApp')
     ];
 
     $scope.addBook = function() {
-      if ($scope.bookNameText) $scope.books.push($scope.bookNameText);
+      if ($scope.bookNameText) {
+        $scope.books.push($scope.bookNameText);
+        $scope.bookNameText = '';
+      }
     };
   });
