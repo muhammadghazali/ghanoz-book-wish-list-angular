@@ -5,3 +5,4 @@ dist
 app/bower_components
 ghanoz-book-wish-list-angular.sublime-project
 ghanoz-book-wish-list-angular.sublime-workspace
+*.log
